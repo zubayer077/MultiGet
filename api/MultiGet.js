@@ -7,9 +7,9 @@ var path = require("path"),
 *	downloads chunks of file and merge them
 *	@url: an url in the format http://XXXXX.XXX/XXX
 *	@fileName: a filename in String
-*	@fileSize: a file size in Byes, Number
+*	@fileSize: a file size in Bytes, Number
 *	@numberOfChunks: Numbers of chunks the file has to be downloaded, Number
-*	@rturn: undefined
+*	@return: undefined
 **/
 
 function MultiGet(url,fileName,fileSize,numberOfChunks){

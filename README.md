@@ -1,4 +1,4 @@
-# Title
+# MultiGet
 
 This application is in response to Pravala Coding Check: Multi-GET
 
@@ -29,12 +29,14 @@ Given Javascript is a single threaded process, parallel download is not attempte
 This application uses node and npm. After cloning this repository, at least three steps are required
 
 	1) Locate the folder 'MultiGet' and 'npm install'
-	2) Set the execute bit of app.js 'chmod +x app.js'
+	2) Set the execute permission of app.js 'chmod +x app.js'
 	3) Execute the app.js either via './app.js' or 'node app.js'
 
 ## Usage
 This application has usage pattern of
-	Usage: app [options] <url>
+
+	./app.js [options] <url>
+	
 where <url> is a required url string
 
   Options:
@@ -51,9 +53,9 @@ One example of usage is
 or
 
 	./app.js -o 384MB.jar -s 2 -c 3 http://028eed10.bwtest-aws.pravala.com/384MB.jar 
-	
 
-A filename set by -o will be downloaded. If -o is not set a filename 'default' will be downloaded in the same folder where app.js is.
+
+A filename set by -o will be downloaded. If -o is not set, a filename 'default' will be downloaded in the same folder where app.js is.
 
 ## Contribute
 
@@ -61,4 +63,4 @@ PRs accepted.
 
 ## License
 
-MIT © Richard McRichface
+MIT © Hossan Zubayer

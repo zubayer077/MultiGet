@@ -27,6 +27,7 @@ Given Javascript is a single threaded process, parallel download is not attempte
 ## Install
 
 This application uses node and npm. After cloning this repository, at least three steps are required
+
 	1) Locate the folder 'MultiGet' and 'npm install'
 	2) Set the execute bit of app.js 'chmod +x app.js'
 	3) Execute the app.js either via './app.js' or 'node app.js'
@@ -44,9 +45,13 @@ where <url> is a required url string
     -c, --chunks <Number>  Number of chunks (optional)
 
 One example of usage is 
+	
 	./app.js http://028eed10.bwtest-aws.pravala.com/384MB.jar
+
 or
+
 	./app.js -o 384MB.jar -s 2 -c 3 http://028eed10.bwtest-aws.pravala.com/384MB.jar 
+	
 
 A filename set by -o will be downloaded. If -o is not set a filename 'default' will be downloaded in the same folder where app.js is.
 

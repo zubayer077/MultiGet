@@ -4,8 +4,8 @@ var path = require("path"),
 	program = require('commander');
 
 /**
-*	This class parses the command line arguments
-*	calls multiGet to downloaed and merge all the chunks
+*	This class parses the command line arguments 
+*	calls multiGet to download from URL specified and merge all the chunks 
 */
 
 /* Default values*/
